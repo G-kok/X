@@ -1,3 +1,5 @@
+# >>name = youtube //rr*.googlevideo.com,youtubei.googleapis.com
+
 # >>首页 瀑布流,上传按钮,短视频,反馈
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|guide|reel\/reel_watch_sequence)\?key url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/youtube.js
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/feedback\?key url reject-200
@@ -5,5 +7,3 @@
 # >>播放页 插播广告,贴片广告
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(next|player)\?key url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/youtube.js
 ^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad url reject-200
-
-hostname = rr*.googlevideo.com,youtubei.googleapis.com
