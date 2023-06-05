@@ -1,5 +1,5 @@
-#!name = 哔哩哔哩
-#!update = 2023-06-05 14:25
+# >>name = 哔哩哔哩 //app.bilibili.com,api.bilibili.com,api.live.bilibili.com,grpc.biliapi.net
+# >>update = 2023-06-05 14:25
 
 # >>Proto 动态广告,后台播放限制,播放页广告
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$ url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/bilibili/biliProto.js
@@ -25,5 +25,3 @@
 # >>IP请求,地理位置请求
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip url reject
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ url reject-200
-
-hostname = app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net
