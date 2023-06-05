@@ -1,5 +1,3 @@
-# >>京东
+# >>京东 //api.m.jd.com
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/JD.js
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts url reject
-
-hostname = api.m.jd.com
