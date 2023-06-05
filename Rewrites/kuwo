@@ -1,4 +1,4 @@
-# >>name = 酷我音乐
+# >>name = 酷我音乐 //*.kuwo.cn
 # >>version = 10.4.6
 
 # >>酷我音乐_开屏广告
@@ -12,5 +12,3 @@
 ^http:\/\/musicpay\.kuwo\.cn\/music\.pay url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/kuwo.js
 ^http:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v2\/theme\?op=gd) url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/kuwo.js
 ^https:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip\?op=ui url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/kuwo.js
-
-hostname = *.kuwo.cn
