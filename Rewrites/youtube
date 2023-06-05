@@ -1,4 +1,4 @@
-# >>name = youtube //rr*.googlevideo.com,youtubei.googleapis.com
+# >>youtube //rr*.googlevideo.com,youtubei.googleapis.com
 
 # >>首页 瀑布流,上传按钮,短视频,反馈
 ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|guide|reel\/reel_watch_sequence)\?key url script-response-body https://raw.githubusercontent.com/G-kok/X/main/Scripts/youtube.js
