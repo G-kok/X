@@ -1,0 +1,2 @@
+# >>拼多多 //api.pinduoduo.com,api.yangkeduo.com
+^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash url reject
