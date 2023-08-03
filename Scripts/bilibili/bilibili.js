@@ -1,4 +1,8 @@
-  // 会员清晰度
+const url = $request.url;
+if (!$response.body) $done({});
+let obj = JSON.parse($response.body);
+
+// 会员清晰度
   if (obj.data.vip.status === 1) {
     $done({});
   } else {
