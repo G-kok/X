@@ -2,7 +2,7 @@
  本地解锁StormSniffer
 ====================================
 [rewrite_local]
-^https?:\/\/api\.x-storm\.com\/app\/user-profile\/$ url script-response-body https://raw.githubusercontent.com/G_kok/X/Scripts/Storm Sniffer.js
+^https?:\/\/api\.x-storm\.com\/app\/user-profile\/$ url script-response-body https://raw.githubusercontent.com/G_kok/X/main/Scripts/StormSniffer.js
 
 [mitm]
 hostname = *.x-storm.com
